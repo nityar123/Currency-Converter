@@ -1,27 +1,18 @@
-# Currency Converter Tool
+# Currency Converter Pro 💸
 
-## Overview
-
-The Currency Converter Tool is a simple and interactive web page that allows users to convert amounts between different currencies. It provides real-time conversion rates and is designed for easy use with a clean interface.
+A responsive web app that lets users convert between 30+ world currencies using real-time exchange rates and visualize historical trends over the past 7 days.
 
 ## Features
 
-- **Real-time Currency Conversion**: Convert amounts between various currencies using live exchange rates.
-- **User-Friendly Interface**: Simple and intuitive design for ease of use.
-- **Supports Multiple Currencies**: Select from multiple differecent currencies to convert.
+- 🔁 **Live Currency Conversion** using ExchangeRate API
+- 🌎 **Supports 30+ Currencies** via Frankfurter API
+- 📊 **7-Day Historical Trends** with interactive Chart.js graphs
+- 📈 **Percentage Change Calculation** between current and past exchange rates
 
-## Languages/technologies Used
+## Built With 
 
-- **HTML**: For structuring the web page.
-- **CSS**: For styling the application and ensuring a responsive design.
-- **JavaScript**: For handling user interactions and performing currency conversions.
-- **API**: Utilizes a currency conversion API to fetch live exchange rates.
-
-## Live Web Page:
-https://nityar123.github.io/Currency-Converter/
-
-To run the Currency Converter Tool locally, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/nityar123/Currency-Converter.git
+- **JavaScript** – Front-end logic and API integration  
+- **HTML/CSS** – Structure and styling  
+- **Chart.js** – Data visualization  
+- **REST APIs** – [ExchangeRate API](https://www.exchangerate-api.com/), [Frankfurter API](https://www.frankfurter.app/docs/)  
+- **Flag CDN** – For country flag images
